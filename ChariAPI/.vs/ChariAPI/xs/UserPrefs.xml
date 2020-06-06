@@ -1,0 +1,18 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{70DEDD3F-C9DF-4EB7-B55B-EB59E61D246C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Chari/www/css/charitySearch.css">
+    <Files>
+      <File FileName="../Chari/www/AddBank.html" Line="88" Column="8" />
+      <File FileName="../Chari/www/charitySearch.html" Line="163" Column="1" />
+      <File FileName="../Chari/www/css/charitySearch.css" Line="514" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChariAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/xiuxi/cs472spring2020team3/ChariAPI/Controllers/PlaidItemController.cs" relfile="Controllers/PlaidItemController.cs" line="99" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
