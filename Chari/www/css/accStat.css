@@ -1,0 +1,98 @@
+body {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #E4E4E4;
+    background-image: linear-gradient(top, #FF8894 0%, #F5EAEB 25%);
+    background-image: -webkit-linear-gradient(top, #FF8894 0%, #F5EAEB 25%);
+    background-image: -ms-linear-gradient(top, #FF8894 0%, #F5EAEB 25%);
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FF8894), color-stop(.25, #F5EAEB) );
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+a {
+    text-decoration-line: none;
+}
+    a:hover {
+        cursor: pointer;
+    }
+
+/*Profile picture holder (not visible)*/
+.card {
+  display:inline;
+  margin-left: 5%;
+}
+
+/*Profile name and email object*/
+#profile_info {
+  padding: 0.5em 1.3em;
+  position:relative;
+  float:left;
+  left:1%;
+  font-size:1em;
+  text-align: left;
+  font-weight: bold;
+  margin-top:-1em;
+
+}
+
+/*profile picture size*/
+#profile_picture{
+	width:35%;
+	float:left;
+	position:relative;
+	margin-top:-1em;
+	left:3%;
+}
+
+#box table {
+    font-family: Roboto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*organization list table each line size*/
+#box td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1.5em;
+}
+
+/*coloring each line of table pink and white*/
+#box tr:nth-child(even) {
+    background-color: pink;
+}
+
+/*Milestone*/
+#Milestone{
+	/*Has to display Current and Next level on top of the progress bar*/
+}
+
+
+.progress_bar{
+	margin-top:3%;
+	width: 45%; /* Full width of the bar compared to the screen size */
+	background-color: #ddd; /* Grey background */
+	position:relative;
+	float: right;
+	right: 2.8em;
+}
+
+.Chari_points{
+	text-align: right; /*right align of xx% */
+	padding-top: 10px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: black; /* White text color */
+	font-weight: bold;
+}
+
+/*this should be updated using JS*/
+.update_bar{
+	width: 90%; background-color: #4CAF50;
+}

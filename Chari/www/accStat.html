@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/charitySearch.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Your Chari</title>
+</head>
+   <body onload="userInfo()">
+       <!--Navigation-->
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <a class="navbar-brand">
+                   <img src="img/charilogoV4Short.png" alt="Logo" width="90px">
+               </a>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mr-auto">
+                       <li class="nav-item">
+                           <a class="nav-link active"> Account Stats <span class="sr-only">current</span></a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="charitySearch.html"> Charity Search <span class="sr-only"></span></a>
+                       </li>
+                   </ul>
+                   <form class="form-inline my-2 my-lg-0">
+                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                   </form>
+               </div>
+               <div class="nav-item">
+               </div>
+           </nav>
+
+       <!--Page Contents-->
+           <div id="box">
+               <br>
+               <br />
+               <br />
+               <table id="tab">
+                   <tr>
+                       <th>Organization</th>
+                       <th>Amount($)</th>
+                       <th>Date</th>
+                   </tr>
+                   <tr>
+                       <td>Build It Green</td>
+                       <td>23.53</td>
+                       <td>3/29/2020</td>
+                   </tr>
+                   <tr>
+                       <td>Macs Mission</td>
+                       <td>15.65</td>
+                       <td>2/23/2020</td>
+                   </tr>
+                   <tr>
+                       <td>Austin Zoo</td>
+                       <td>10.94</td>
+                       <td>2/15/2020</td>
+                   </tr>
+                   <tr>
+                       <td>Liberty University Inc.</td>
+                       <td>32.68</td>
+                       <td>1/2/2020</td>
+                   </tr>
+                   <tr>
+                       <td><br> </td>
+                       <td><br> </td>
+                       <td><br> </td>
+                   </tr>
+               </table>
+               <br><br>
+
+               <!--User profile-->
+               <div class="card">
+                   <img src="img/unnamed.png" id="profile_picture">
+                   <div id="profile_info">
+                   </div>
+               </div>
+
+               <!--Milestone bar-->
+               <div id="Milestone">
+                   <p id="Current_Level">Lv 1</p>
+                   <div class="progress_bar">
+                       <div class="Chari_points update_bar">90%</div> <!--This part need to use js-->
+                   </div>
+                   <p id="Next_Level">Lv 2</p>
+               </div>
+
+           </div>
+       <script type="text/javascript" src="js/UserManager.js"></script>
+       <script type="text/javascript" src="js/accStat.js"></script>
+   </body>
+</html>
